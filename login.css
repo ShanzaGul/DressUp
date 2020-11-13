@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+a{
+    color: white;
+}
+  
+a:hover{
+    color: #000;
+    border: none;
+}
+.heading{
+    position: relative;
+    top : 0px;
+    height: auto;
+    width: 100%;
+    background-color: brown;
+}
+.footerr{
+    height: auto;
+    width: 100%;
+    background-color: brown;
+}
+.title{
+    font-size: 50px;
+    flex-grow: 2;
+    color:#e53935;
+    text-shadow: 2px 0px 2px rgba(255, 235, 238, 1),-2px 2px 2px rgba(255, 235, 238, 1),-2px 0px 2px rgba(255, 235, 238, 1);
+}
+.anc{
+    flex-grow: 1;
+}
+.mainPagebg{
+    position: relative;
+    height: 100vh;
+    top : 10%;
+    left: -20px;
+    z-index: -1;
+}
+
+
+.main{
+    position: absolute;
+    top : 20%;
+    padding: 5%;
+    margin-top: 2%;
+    right: 20px;
+    background-color: brown;
+    width: 30%;
+    border-radius: 20px;
+    
+}
+
+.withinMain{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.select{
+    text-align: center;
+    flex: 1;
+}
+
+.signUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.pic{
+    width: 300px;
+    height: 400px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .popUp{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .aboutclass{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      height: 400px;
+      margin:5%;
+      background-color:white;
+  }
+  .imgAbout{
+      width: 400px;
+      height: 100%;
+  }
+  .paraAbout{
+      font-size: medium;
+      align-items: center;
+      text-align: center;
+  }
+
+
+  .fa {
+    padding: 2%;
+    font-size: 25px;
+    width: 60px;
+    text-decoration: none;
+    outline: none;
+    margin: 2%;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    outline: none;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    outline: none;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 1024px) {
+   .mainPagebg{
+       display: none;
+   }
+  
+   .main{
+    text-align: center;
+    top : 30%;
+    padding: 5%;
+    background-color: brown;
+    border-radius: 50px;
+    width:100%;
+    margin-top: 4%;
+    border-radius: 20px;
+    
+}
+
+.heading{
+    position: relative;
+    top : 0px;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    background-color: brown;
+}
+.fa {
+    padding: 1%;
+    font-size: 10px;
+    width: 30px;
+    text-decoration: none;
+    outline: none;
+    margin: 1%;
+    border-radius: 50%;
+  }
+
+.footerr{
+    position: fixed;
+    height: 200px;
+    bottom: 0%;
+    font-size: small;
+ }
+
+.j{ 
+    position: absolute;
+    top: 100%;
+  }
+ 
+.aboutclass{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin:5%;
+    background-color:white;
+}
+
+.imgAbout{
+    width: 200px;
+    height: auto;
+}
+
+.paraAbout{
+    padding: 5%;
+    font-size: 8px;
+}
+
+.mar {
+    margin-bottom: 400px;
+}
+
+}
